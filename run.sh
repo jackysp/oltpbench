@@ -4,7 +4,8 @@ if [ $# -ne 0 ]
 then
 	workload=$@
 else
-	workload=(auctionmark epinions jpab linkbench resourcestresser seats sibench smallbank tatp tpcc twitter wikipedia ycsb)
+	workload=(auctionmark chbenchmark epinions resourcestresser seats sibench smallbank tatp tpcc twitter voter wikipedia ycsb)
+	#workload=(auctionmark chbenchmark epinions jpab linkbench resourcestresser seats sibench smallbank tatp tpcc twitter voter wikipedia ycsb)
 fi
 
 server=(ti)

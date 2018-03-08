@@ -1,4 +1,5 @@
 drop database if exists auctionmark;
+drop database if exists chbenchmark;
 drop database if exists epinions;
 drop database if exists jpab;
 drop database if exists linkbench;
@@ -14,6 +15,7 @@ drop database if exists wikipedia;
 drop database if exists ycsb;
 
 create database auctionmark;
+create database chbenchmark;
 create database epinions;
 create database jpab;
 create database linkbench;
